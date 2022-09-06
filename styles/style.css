@@ -4,16 +4,34 @@
 }
 
 .carousel-item {
-  height: 600px;
+  height: 500px;
 }
 
 .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 600px;
+  min-height: 500px;
 }
 
 .logo {
   width: 10rem;
+}
+
+article h1 {
+  text-align: center;
+}
+
+article img {
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 2rem auto;
+}
+
+article p {
+  font-family: Nazanin, sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  text-indent: 30px;
+  margin-bottom: 2rem;
 }
