@@ -11,6 +11,10 @@ body {
   box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.1), 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
+.custom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .carousel-item {
   height: calc(100vh - 176px);
 }
