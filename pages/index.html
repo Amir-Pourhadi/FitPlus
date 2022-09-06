@@ -101,9 +101,9 @@
     </nav>
 
     <header class="d-flex align-items-center justify-content-center">
-      <img src="../images/logo/logo_black.png" height="100" />
-      <h1>با ما تناسب اندام در کمترین زمان را تجربه کنید!</h1>
-      <span class="badge rounded-pill text-bg-danger fs-6">صد در صد تضمینی!</span>
+      <img class="d-none d-lg-block" src="../images/logo/logo_black.png" height="100" />
+      <p class="m-3">با ما تناسب اندام در کمترین زمان را تجربه کنید!</p>
+      <span class="badge rounded-pill text-bg-danger d-none d-lg-block fs-6">صد در صد تضمینی!</span>
     </header>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -161,27 +161,25 @@
     </div>
 
     <main class="container py-5">
-      <div>
-        <h2 class="border-bottom">مقالات</h2>
-        <div class="card my-5 px-3 custom-shadow">
-          <div class="row g-2 align-items-center">
-            <div class="col-md-4">
-              <img src="../images/sample.jpg" class="img-fluid rounded" alt="مقاله یک" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">عنوان</h5>
-                <p class="card-text">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها
-                  و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
-                  کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
-                  آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
-                  ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که
-                  تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
-                  دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-                </p>
-                <p class="card-text"><small class="text-muted">منبع: کتاب فیل‌ها پرواز می‌کنند</small></p>
-              </div>
+      <h2 class="border-bottom">مقالات</h2>
+      <div class="card my-5 px-3 py-3 py-lg-0 custom-shadow">
+        <div class="row g-2 align-items-center">
+          <div class="col-md-4">
+            <img src="../images/sample.jpg" class="img-fluid rounded" alt="مقاله یک" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">عنوان</h5>
+              <p class="card-text">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده،
+                شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای
+                اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              </p>
+              <p class="card-text"><small class="text-muted">منبع: کتاب فیل‌ها پرواز می‌کنند</small></p>
             </div>
           </div>
         </div>
@@ -206,7 +204,9 @@
       </div>
     </main>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 mt-5 fs-5 soft-shadow">
+    <footer
+      class="d-flex flex-wrap justify-content-center justify-content-md-around align-items-center p-3 mt-5 fs-5 soft-shadow"
+    >
       <ul class="nav col-md-4 justify-content-end">
         <li class="nav-item">
           <a class="nav-link px-2 text-muted" href="./index.html">صفحه نخست</a>
@@ -231,7 +231,7 @@
 
       <a
         href="#"
-        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        class="col-md-4 d-none d-lg-flex align-items-center justify-content-center link-dark text-decoration-none"
       >
         <img src="../images/logo/logo_no-text.png" alt="لوگو" height="50" class="d-inline-block align-text-top ms-3" />
       </a>
