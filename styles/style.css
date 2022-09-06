@@ -4,18 +4,22 @@
 }
 
 .carousel-item {
-  height: 500px;
+  height: calc(100vh - 176px);
 }
 
 .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 500px;
+  min-height: calc(100vh - 176px);
 }
 
 .logo {
   width: 10rem;
+}
+
+.badge {
+  transform: rotate(-15deg);
 }
 
 article h1 {
