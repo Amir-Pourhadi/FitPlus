@@ -10,6 +10,8 @@ async function setRandomSentence() {
   authorEL.innerText = randomQuote.author;
 }
 
+/* -------------------------------------------------------------------------- */
+
 function getTime() {
   function formatTime(num) {
     return num.toString().padStart(2, "0");
@@ -24,5 +26,30 @@ function getTime() {
   }, 1000);
 }
 
+/* -------------------------------------------------------------------------- */
+
+function showMessage(message, type) {
+  const messageEl = document.querySelector("#msg");
+  messageEl.innerText = message;
+  messageEl.classList.add(`text-${type}`);
+}
+
+function calculateBmi(weight, height) {
+  return (weight / (height / 100) ** 2).toFixed(1);
+}
+
+function validatorBmi(event) {
+  event.preventDefault();
+
+  const weight = document.querySelector("form input[name='weight']").value;
+  const height = document.querySelector("form input[name='height']").value;
+
+  if (!weight || !height) return showMessage("", "danger");
+  if (weight < 10 || weight > 200 || height < 70 || height > 200)
+    return showMessage("اطلاعات وارد شده صحیح نمی‌باشد.", "danger");
+  return showMessage(`شاخص توده بدنی شما ${calculateBmi()} می‌باشد.`, "success");
+}
+
 setRandomSentence();
 getTime();
+document.querySelector("form").addEventListener("submit", validatorBmi);

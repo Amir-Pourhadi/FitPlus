@@ -68,6 +68,13 @@ header p {
   transform: rotate(-15deg);
 }
 
+.article-summary p {
+  font-family: Nazanin, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 30px;
+}
+
 article h1 {
   text-align: center;
 }
@@ -80,7 +87,7 @@ article img {
 
 article p {
   font-family: Nazanin, sans-serif;
-  font-size: 25px;
+  font-size: 24px;
   text-align: justify;
   text-indent: 30px;
   margin-bottom: 2rem;

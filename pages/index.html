@@ -84,11 +84,11 @@
               <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 مقالات
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">مقاله ۱</a></li>
-                <li><a class="dropdown-item" href="#">مقاله ۲</a></li>
-                <li><a class="dropdown-item" href="#">مقاله ۳</a></li>
-                <li><a class="dropdown-item" href="#">مقاله ۴</a></li>
+              <ul class="dropdown-menu text-end">
+                <li><a class="dropdown-item" href="../articles/warmUp.html">گرم کردن و سرد کردن</a></li>
+                <li><a class="dropdown-item" href="../articles/currectExercies.html">تمرینات اصلاحی</a></li>
+                <li><a class="dropdown-item" href="../articles/bodyTypes.html">انواع تیپ‌ بدنی</a></li>
+                <li><a class="dropdown-item" href="../articles/exerciseSystems.html">سیستم‌های تمرینی</a></li>
               </ul>
             </li>
 
@@ -131,13 +131,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="5000">
-          <img src="../images/carousel/1.png" class="d-block w-100 h-50" alt="Image #1" />
+          <img src="../images/pages/index/carousel/1.png" class="d-block w-100 h-50" alt="Image #1" />
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <img src="../images/carousel/2.png" class="d-block w-100 h-50" alt="Image #2" />
+          <img src="../images/pages/index/carousel/2.png" class="d-block w-100 h-50" alt="Image #2" />
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <img src="../images/carousel/3.png" class="d-block w-100 h-50" alt="Image #3" />
+          <img src="../images/pages/index/carousel/3.png" class="d-block w-100 h-50" alt="Image #3" />
         </div>
         <button
           class="carousel-control-prev"
@@ -161,25 +161,144 @@
     </div>
 
     <main class="container py-5">
+      <h2 class="border-bottom">محاسبه شاخص توده بدنی</h2>
+      <div class="card my-5 py-3 py-lg-0 overflow-hidden custom-shadow">
+        <div class="row g-2 align-items-center">
+          <div class="col-md-6">
+            <img src="../images/pages/index/bmi/banner.png" class="img-fluid rounded-start" alt="مقاله چهار" />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <form>
+                <h4 class="text-center mb-4">اطلاعات خود را وارد نمایید.</h4>
+
+                <div class="input-group input-group-lg mb-3" style="direction: ltr">
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="لطفا وزن خود را بر حسب کیلوگرم وارد کنید"
+                    name="weight"
+                    aria-label="Recipient's username"
+                    aria-describedby="basic-addon"
+                  />
+                  <span class="input-group-text" id="basic-addon">وزن (کیلوگرم)</span>
+                </div>
+
+                <div class="input-group input-group-lg mb-3" style="direction: ltr">
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="لطفا قد خود را بر حسب سانتی‌متر وارد کنید"
+                    name="height"
+                    aria-label="Recipient's username"
+                    aria-describedby="basic-addon"
+                  />
+                  <span class="input-group-text" id="basic-addon">قد (سانتی‌متر)</span>
+                </div>
+
+                <div class="row g-1">
+                  <div class="col-md-6">
+                    <input class="btn btn-lg btn-primary" type="submit" value="تایید اطلاعات" />
+                  </div>
+                  <div class="col-md-6">
+                    <a class="btn btn-lg btn-primary align-items-center invisible" download>
+                      <i class="bi bi-cloud-arrow-down fs-5 ms-2"></i>
+                      دانلود فایل راهنما
+                    </a>
+                  </div>
+                  <p id="msg"></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <h2 class="border-bottom">مقالات</h2>
-      <div class="card my-5 px-3 py-3 py-lg-0 custom-shadow">
+      <div class="card my-5 py-3 py-lg-0 overflow-hidden custom-shadow">
         <div class="row g-2 align-items-center">
           <div class="col-md-4">
-            <img src="../images/sample.jpg" class="img-fluid rounded" alt="مقاله یک" />
+            <img src="../images/articles/warmUp/1.jpg" class="img-fluid rounded-start" alt="مقاله یک" />
           </div>
           <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">عنوان</h5>
-              <p class="card-text">
-                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
-                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
-                کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده،
-                شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
-                الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
-                دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای
-                اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            <div class="card-body article-summary">
+              <h4 class="card-title my-3">اصول گرم و سرد کردن بدن در تمرین</h4>
+              <p class="card-text fw-bold text-muted">
+                اصول گرم و سرد کردن بدن در تمرین فواید زیادی دارد که با مطالعه می توان به آنها پی برد و احتمال آسیب
+                دیدگی در عضلات را به حداقل رساند. گرم کردن بدن حتی از دویدن نیز حیاتی تر است و باید به درستی انجام شود.
+                بسیاری از افراد بعد از تمرین احساس سنگینی می کنند یا دچار گرفتگی عضلات شده اند، این افراد یا قبل از
+                تمرین بدن خود را گرم نکرده اند یا این کار را اصولی و درست انجام نداده اند. در هنگام گرم کردن کل عضلات
+                درگیر می شوند و آماده برای انجام حرکات ورزشی هستند. حال به فوایدی که گرم کردن بر روی بدن و عضلات بدن
+                دارد اشاره می کنیم...
               </p>
-              <p class="card-text"><small class="text-muted">منبع: کتاب فیل‌ها پرواز می‌کنند</small></p>
+              <a href="../articles/warmUp.html" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card my-5 py-3 py-lg-0 overflow-hidden custom-shadow">
+        <div class="row g-2 align-items-center">
+          <div class="col-md-4">
+            <img src="../images/articles/correctExercises/4.jpg" class="img-fluid rounded-start" alt="مقاله دو" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body article-summary">
+              <h4 class="card-title my-3">تمرینات اصلاحی</h4>
+              <p class="card-text fw-bold text-muted">
+                از تمرینات اصلاحی برای درمان التهاب مفاصل به عنوان پیشگیری از آسیب، کنترل درد، پس از ترمیم یا حتی فقط
+                برای استفاده در یک روند برای نگهداری اندام در وضعیت صحیح استفاده می‌شود. اهمیت تمرینات اصلاحی در داخل یک
+                برنامه تمرینی ارتقا الگوی حرکت و افزایش انعطاف‌پذیری در برابر آسیب است و در نهایت به ورزشکاران امکان
+                می‌دهد تا به طور مداوم با شدت‌های بیشتر تمرین کنند و حجم تمرینات را برای ارتقا ورزش مداوم افزایش دهند.
+              </p>
+              <a href="../articles/currectExercies.html" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card my-5 py-3 py-lg-0 overflow-hidden custom-shadow">
+        <div class="row g-2 align-items-center">
+          <div class="col-md-4">
+            <img src="../images/articles/bodyTypes/1.jpg" class="img-fluid rounded-start" alt="مقاله سه" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body article-summary">
+              <h4 class="card-title my-3">انواع تیپ بدنی در بدنسازی</h4>
+              <p class="card-text fw-bold text-muted">
+                تیپ بدنی یا سوماتوتایپ، به سه نوع کلی ترکیبات بدنی افراد مختلف اشاره دارد. این ایده اولین بار توسط دکتر
+                دابلیو. اچ. شلدون و در دهه ی 1940 بیان شد، او سه تیپ اصلی را اندومورف، مزومورف و اکتومورف نامید. در
+                ابتدا باور بر این بود که سوماتوتایپ فرد غیر قابل تغییر است و ویژگی های روانی و فیزیولوژیکی فرد بر اساس
+                تیپ بدنی او رشد پیدا میکنند.
+              </p>
+              <p class="card-text fw-bold text-muted">
+                بر اساس نظریه شلدون، اندومورف ها بدنی همیشه گرد و نرم دارند، مزومورف ها همیشه مربعی و عضلانی هستند و
+                اکتومورف ها هم همیشه باریک هستند و استخوان بندی ریز دارند.
+              </p>
+              <a href="../articles/bodyTypes.html" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card my-5 py-3 py-lg-0 overflow-hidden custom-shadow">
+        <div class="row g-2 align-items-center">
+          <div class="col-md-4">
+            <img src="../images/articles/exerciseSystems/1.jpg" class="img-fluid rounded-start" alt="مقاله چهار" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body article-summary">
+              <h4 class="card-title my-3">انواع سیستم های تمرینی</h4>
+              <p class="card-text fw-bold text-muted">
+                عضله سازی و رشد ماهیچه تا زمانی ادامه خواهد داشت که بدن در شرایط جدید تمرینی قرار گیرد. به کمک انواع
+                سیستم‌های تمرینی، عضلات را در این موقعیت قرار خواهید داد. در غیر این صورت عضلاتتان با شرایط قبلی تمرین،
+                سازگاری پیداکرده و رشد آن کمتر و کمتر خواهد شد؛ حتی تا زمانی ادامه خواهد یافت که توقف رشد عضلانی را
+                مشاهده کنید. به هنگامی که شرایط تحمیل شده در جلسات تمرینی برای بدن تا حدی غیرقابل تحمل و البته جدید
+                باشد، پیشرفت را مشاهده می‌کنید. لازم به ذکر است که طراحی برنامه تمرینی از فاکتورهای متفاوت و حائز اهمیتی
+                برخوردار است.
+              </p>
+
+              <a href="../articles/exerciseSystems.html" class="stretched-link"></a>
             </div>
           </div>
         </div>
@@ -205,7 +324,7 @@
     </main>
 
     <footer
-      class="d-flex flex-wrap justify-content-center justify-content-md-around align-items-center p-3 mt-5 fs-5 soft-shadow"
+      class="d-flex flex-wrap justify-content-center justify-content-md-around align-items-center p-3 fs-5 soft-shadow"
     >
       <ul class="nav col-md-4 justify-content-end">
         <li class="nav-item">
