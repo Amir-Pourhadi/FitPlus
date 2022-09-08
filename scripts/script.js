@@ -95,5 +95,5 @@ function validateBmi(event) {
 
 setRandomSentence();
 getTime();
+loadForm();
 document.querySelector("form").addEventListener("submit", validateBmi);
-document.addEventListener("DOMContentLoaded", loadForm);
