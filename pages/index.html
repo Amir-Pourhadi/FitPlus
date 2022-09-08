@@ -170,19 +170,7 @@
           <div class="col-md-6">
             <div class="card-body">
               <form>
-                <h4 class="text-center mb-4">اطلاعات خود را وارد نمایید.</h4>
-
-                <div class="input-group input-group-lg mb-3" style="direction: ltr">
-                  <input
-                    type="number"
-                    class="form-control"
-                    placeholder="لطفا وزن خود را بر حسب کیلوگرم وارد کنید"
-                    name="weight"
-                    aria-label="Recipient's username"
-                    aria-describedby="basic-addon"
-                  />
-                  <span class="input-group-text" id="basic-addon">وزن (کیلوگرم)</span>
-                </div>
+                <h4 class="text-center mb-4">اطلاعات خود را وارد نمایید</h4>
 
                 <div class="input-group input-group-lg mb-3" style="direction: ltr">
                   <input
@@ -196,18 +184,23 @@
                   <span class="input-group-text" id="basic-addon">قد (سانتی‌متر)</span>
                 </div>
 
-                <div class="row g-1">
-                  <div class="col-md-6">
-                    <input class="btn btn-lg btn-primary" type="submit" value="تایید اطلاعات" />
-                  </div>
-                  <div class="col-md-6">
-                    <a class="btn btn-lg btn-primary align-items-center invisible" download>
-                      <i class="bi bi-cloud-arrow-down fs-5 ms-2"></i>
-                      دانلود فایل راهنما
-                    </a>
-                  </div>
-                  <p id="msg"></p>
+                <div class="input-group input-group-lg mb-3" style="direction: ltr">
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="لطفا وزن خود را بر حسب کیلوگرم وارد کنید"
+                    name="weight"
+                    aria-label="Recipient's username"
+                    aria-describedby="basic-addon"
+                  />
+                  <span class="input-group-text" id="basic-addon">وزن (کیلوگرم)</span>
                 </div>
+
+                <div id="buttons" class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+                  <button class="btn btn-lg btn-primary ms-2 mb-2 mb-lg-0" type="submit">تایید اطلاعات</button>
+                </div>
+
+                <p id="msg" class="text-center fs-4 mt-3">در انتظار وارد کردن اطلاعات...</p>
               </form>
             </div>
           </div>

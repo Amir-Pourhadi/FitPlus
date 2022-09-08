@@ -92,3 +92,7 @@ article p {
   text-indent: 30px;
   margin-bottom: 2rem;
 }
+
+#msg {
+  font-family: Nazanin, sans-serif;
+}
