@@ -34,12 +34,12 @@ header p {
   font-size: 36px;
 }
 
-.nav-link {
-  position: relative;
+nav .nav-link {
   text-decoration: none;
+  position: relative;
 }
 
-.nav-link::before {
+nav .nav-link::before {
   content: "";
   position: absolute;
   display: block;
@@ -52,11 +52,8 @@ header p {
   transition: transform 450ms ease;
 }
 
-.nav-link:hover::before {
-  transform: scaleX(1);
-}
-
-.nav-link.active::before {
+nav .nav-link:hover::before,
+nav .nav-link.active::before {
   transform: scaleX(1);
 }
 
