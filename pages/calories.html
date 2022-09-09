@@ -33,13 +33,17 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Main Script -->
-    <script src="../scripts/script.js" async defer></script>
+    <!-- Scripts -->
+    <script src="../scripts/qoute.js" async defer></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <!-- -------------------------------- Navbar --------------------------------- -->
+    <nav id="main-nav" class="navbar soft-shadow navbar-expand-lg bg-light fs-5">
       <div class="container">
-        <a class="navbar-brand" href="./index.html">فیت پلاس</a>
+        <a class="navbar-brand d-flex align-items-center fs-3" href="./home.html">
+          <img src="../images/logo/logo_no-text.png" alt="لوگو" height="50" class="d-inline-block ms-3" />
+          فیت پلاس
+        </a>
 
         <button
           class="navbar-toggler"
@@ -54,43 +58,49 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">صفحه نخست</a>
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item ms-5">
+              <a class="nav-link" href="./home.html">صفحه نخست</a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item ms-5">
               <a class="nav-link active" aria-current="page" href="./calories.html">کالری غذاها</a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item ms-5">
               <a class="nav-link" href="./supplements.html">مکمل</a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item ms-5">
               <a class="nav-link" href="./sleep.html">خواب</a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item dropdown ms-5">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                مقالات
+              </a>
+              <ul class="dropdown-menu text-end">
+                <li><a class="dropdown-item" href="../articles/warmUp.html">گرم کردن و سرد کردن</a></li>
+                <li><a class="dropdown-item" href="../articles/currectExercies.html">تمرینات اصلاحی</a></li>
+                <li><a class="dropdown-item" href="../articles/bodyTypes.html">انواع تیپ‌ بدنی</a></li>
+                <li><a class="dropdown-item" href="../articles/exerciseSystems.html">سیستم‌های تمرینی</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item ms-5">
               <a class="nav-link" href="./about.html">درباره من</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <main class="container">
-      <header class="d-flex">
-        <img class="logo" src="../images/logo/logo_black.png" />
-        <div class="d-flex flex-column justify-content-evenly mt-4">
-          <h3>لوگو</h3>
-          <p>متن لوگو</p>
-        </div>
-      </header>
 
-      <section class="row gx-5">
-        <article class="col-8">
+    <main class="container pb-5">
+      <!-- ------------------------------- Article ------------------------------- -->
+      <section class="row gx-5 my-5">
+        <article class="col-10 mx-auto">
           <h1>کالری چیست؟</h1>
-          <img class="rounded mx-auto d-block" src="../images/articles/callories-1.jpg" alt="تصویر یک" />
+          <img class="rounded mx-auto d-block" src="../images/pages/calories/1.jpg" alt="تصویر یک" />
 
           <h3>مقدمه</h3>
           <p>
@@ -114,7 +124,7 @@
             این راهنما به شما کمک می کند تا سرعت بالا رفتن میزان کالری غذایی مصرفی خود در طول روز را بهتر متوجه شوید:
           </p>
 
-          <img class="rounded mx-auto d-block" src="../images/articles/callories-2.jpg" alt="تصویر دو" />
+          <img class="rounded mx-auto d-block" src="../images/pages/calories/2.jpg" alt="تصویر دو" />
 
           <h4>کالری روغن، سس مایونز و کره</h4>
           <p>
@@ -182,25 +192,55 @@
 
           <ul>
             <li>
-              <a class="link-primary" href="https://www.majalesalamat.com/tools/calories">وب‌سایت مجله سلامت</a>
+              <a class="link-primary text-decoration-none" href="https://www.majalesalamat.com/tools/calories">
+                وب‌سایت مجله سلامت
+              </a>
             </li>
             <li>
-              <a class="link-primary" href="https://drpharmo.com/foods-calories">وب‌سایت دکتر فارمو</a>
+              <a class="link-primary text-decoration-none" href="https://drpharmo.com/foods-calories">
+                وب‌سایت دکتر فارمو
+              </a>
             </li>
           </ul>
         </article>
-
-        <aside class="col-4"></aside>
       </section>
 
-      <figure>
-        <blockquote class="blockquote">
-          <p id="quote"></p>
-        </blockquote>
-        <figcaption class="blockquote-footer text-start">
-          <cite title="Source Title" id="quote-author">Source Title</cite>
-        </figcaption>
-      </figure>
+      <!-- -------------------------------- Quote -------------------------------- -->
+      <div class="card card-shadow">
+        <div class="card-header d-flex align-items-center justify-content-between fw-bold">
+          <span>جمله انگیزشی</span>
+          <div>
+            <span>زمان: </span>
+            <span id="time" class="fs-5"></span>
+          </div>
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote">
+            <p id="quote"></p>
+            <div class="blockquote-footer text-start">
+              <cite title="Source Title" id="quote-author"></cite>
+            </div>
+          </blockquote>
+        </div>
+      </div>
     </main>
+
+    <!-- ------------------------------- Footer -------------------------------- -->
+    <footer
+      class="d-flex flex-wrap justify-content-center justify-content-md-around align-items-center p-3 fs-5 soft-shadow"
+    >
+      <div class="col-md-4 mb-0 text-muted text-center">
+        <span class="me-2">Developed By AmirHossein Moslemi</span>
+      </div>
+
+      <a
+        href="#"
+        class="col-md-4 d-none d-lg-flex align-items-center justify-content-center link-dark text-decoration-none"
+      >
+        <img src="../images/logo/logo_no-text.png" alt="لوگو" height="50" class="d-inline-block align-text-top ms-3" />
+      </a>
+
+      <p class="col-md-4 mb-0 text-muted text-center">&copy; 2022 FitPlus, Inc. All Rights Reserved</p>
+    </footer>
   </body>
 </html>

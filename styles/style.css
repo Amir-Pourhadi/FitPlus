@@ -39,11 +39,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* navbar */
-nav .nav-link {
+nav#main-nav .nav-link {
   position: relative;
 }
 
-nav .nav-link::before {
+nav#main-nav .nav-link::before {
   content: "";
   position: absolute;
   display: block;
@@ -56,8 +56,8 @@ nav .nav-link::before {
   transition: transform 450ms ease;
 }
 
-nav .nav-link:hover::before,
-nav .nav-link.active::before {
+nav#main-nav .nav-link:hover::before,
+nav#main-nav .nav-link.active::before {
   transform: scaleX(1);
 }
 
