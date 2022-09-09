@@ -7,7 +7,6 @@
 }
 
 /* Whole Website */
-
 body {
   background-color: #f5f5f5;
 }
@@ -26,33 +25,20 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Global Classes */
-
 .soft-shadow {
   box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.1), 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
-.custom-shadow {
+.card-shadow {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Specific Selectors */
-
 #msg {
   font-family: Nazanin, sans-serif;
 }
 
-/* header */
-
-header p {
-  font-size: 36px;
-}
-
-header .badge {
-  transform: rotate(-15deg);
-}
-
 /* navbar */
-
 nav .nav-link {
   text-decoration: none;
   position: relative;
@@ -80,8 +66,16 @@ nav .nav-link.active::before {
   width: 10rem;
 }
 
-/* Carousel */
+/* header */
+header p {
+  font-size: 36px;
+}
 
+header .badge {
+  transform: rotate(-15deg);
+}
+
+/* Carousel */
 .carousel-item {
   height: calc(100vh - 176px);
 }
@@ -129,7 +123,6 @@ nav .nav-link.active::before {
 }
 
 /* article */
-
 article h1 {
   text-align: center;
 }
