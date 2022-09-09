@@ -1,3 +1,4 @@
+/* ---------------------------------- Quote --------------------------------- */
 async function setRandomSentence() {
   const quotes = await fetch("../data/sentences.json").then((res) => res.json());
   const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -10,7 +11,7 @@ async function setRandomSentence() {
   authorEL.innerText = randomQuote.author;
 }
 
-/* -------------------------------------------------------------------------- */
+/* ---------------------------------- Time ---------------------------------- */
 
 function getTime() {
   function formatTime(num) {
@@ -26,7 +27,7 @@ function getTime() {
   }, 1000);
 }
 
-/* -------------------------------------------------------------------------- */
+/* ----------------------------------- BMI ---------------------------------- */
 
 function loadForm() {
   const heightEl = document.querySelector("form input[name='height']");

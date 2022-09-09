@@ -1,9 +1,12 @@
+/* Each Element */
 * {
   direction: rtl;
   font-family: "Yekan", sans-serif;
   user-select: none;
   -moz-user-select: none;
 }
+
+/* Whole Website */
 
 body {
   background-color: #f5f5f5;
@@ -22,6 +25,8 @@ body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(to top, #8e2de2 0%, #4a00e0 100%);
 }
 
+/* Global Classes */
+
 .soft-shadow {
   box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.1), 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
@@ -30,9 +35,23 @@ body::-webkit-scrollbar-thumb {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+/* Specific Selectors */
+
+#msg {
+  font-family: Nazanin, sans-serif;
+}
+
+/* header */
+
 header p {
   font-size: 36px;
 }
+
+header .badge {
+  transform: rotate(-15deg);
+}
+
+/* navbar */
 
 nav .nav-link {
   text-decoration: none;
@@ -56,6 +75,12 @@ nav .nav-link:hover::before,
 nav .nav-link.active::before {
   transform: scaleX(1);
 }
+
+.logo {
+  width: 10rem;
+}
+
+/* Carousel */
 
 .carousel-item {
   height: calc(100vh - 176px);
@@ -96,20 +121,14 @@ nav .nav-link.active::before {
   }
 }
 
-.logo {
-  width: 10rem;
-}
-
-.badge {
-  transform: rotate(-15deg);
-}
-
 .article-summary p {
   font-family: Nazanin, sans-serif;
   font-size: 18px;
   text-align: justify;
   text-indent: 30px;
 }
+
+/* article */
 
 article h1 {
   text-align: center;
@@ -127,8 +146,4 @@ article p {
   text-align: justify;
   text-indent: 30px;
   margin-bottom: 2rem;
-}
-
-#msg {
-  font-family: Nazanin, sans-serif;
 }
