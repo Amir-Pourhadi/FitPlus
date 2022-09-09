@@ -38,6 +38,13 @@ body::-webkit-scrollbar-thumb {
   font-family: Nazanin, sans-serif;
 }
 
+#profile {
+  border-radius: 50%;
+  width: 100%;
+
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
 /* navbar */
 nav#main-nav .nav-link {
   position: relative;
