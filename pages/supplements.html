@@ -1,332 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta Tags -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>FitPlus | Calories</title>
-    <link rel="shortcut icon" href="../images/favicon.svg" type="image/x-icon" />
+  <title>FitPlus | Calories</title>
+  <link href="../images/favicon.svg" rel="shortcut icon" type="image/x-icon" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
+  <!-- Bootstrap CSS -->
+  <link
+    crossorigin="anonymous"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    rel="stylesheet"
+  />
 
-    <!-- ‌Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-    <!-- Fonts -->
-    <link rel="stylesheet" href="../fonts/fonts.css" />
+  <!-- Fonts -->
+  <link href="../fonts/fonts.css" rel="stylesheet" />
 
-    <!-- Main Style -->
-    <link rel="stylesheet" href="../styles/style.css" />
+  <!-- Main Style -->
+  <link href="../styles/style.css" rel="stylesheet" />
 
-    <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Bootstrap JS -->
+  <script
+    crossorigin="anonymous"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
 
-    <!-- Scripts -->
-    <script src="../scripts/qoute.js" async defer></script>
-  </head>
-  <body>
-    <!-- -------------------------------- Navbar --------------------------------- -->
-    <nav id="main-nav" class="navbar soft-shadow navbar-expand-lg bg-light fs-5">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center fs-3" href="./home.html">
-          <img src="../images/logo/logo_no-text.png" alt="لوگو" height="50" class="d-inline-block ms-3" />
-          فیت پلاس
-        </a>
+  <!-- Scripts -->
+  <script async defer src="../scripts/qoute.js"></script>
+</head>
+<body>
+<!-- -------------------------------- Navbar --------------------------------- -->
+<nav class="navbar soft-shadow navbar-expand-lg bg-light fs-5" id="main-nav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center fs-3" href="./home.html">
+      <img alt="لوگو" class="d-inline-block ms-3" height="50" src="../images/logo/logo_no-text.png" />
+      فیت پلاس
+    </a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item ms-5">
-              <a class="nav-link" href="./home.html">صفحه نخست</a>
-            </li>
-
-            <li class="nav-item ms-5">
-              <a class="nav-link" href="./calories.html">کالری غذاها</a>
-            </li>
-
-            <li class="nav-item ms-5">
-              <a class="nav-link active" aria-current="page" href="./supplements.html">مکمل</a>
-            </li>
-
-            <li class="nav-item ms-5">
-              <a class="nav-link" href="./sleep.html">خواب</a>
-            </li>
-
-            <li class="nav-item dropdown ms-5">
-              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                مقالات
-              </a>
-              <ul class="dropdown-menu text-end">
-                <li><a class="dropdown-item" href="../articles/warmUp.html">گرم کردن و سرد کردن</a></li>
-                <li><a class="dropdown-item" href="../articles/correctExercies.html">تمرینات اصلاحی</a></li>
-                <li><a class="dropdown-item" href="../articles/bodyTypes.html">انواع تیپ‌ بدنی</a></li>
-                <li><a class="dropdown-item" href="../articles/exerciseSystems.html">سیستم‌های تمرینی</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item ms-5">
-              <a class="nav-link" href="./about.html">درباره من</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <main class="container pb-5">
-      <!-- ------------------------------- Article ------------------------------- -->
-      <section class="row gx-5 my-5">
-        <article class="col-10 mx-auto">
-          <h1>مکمل های بدنسازی</h1>
-          <img class="rounded mx-auto d-block" src="../images/pages/supplements/1.jpg" alt="تصویر یک" />
-
-          <h3>کراتین</h3>
-          <p>
-            مکمل کراتین قطعا پرمصرف ترین و همینطور جنجالی ترین مکملی است که مورد استفاده ی ورزشکاران قرار می گیرد. به
-            طور ساده می توان گفت کراتین ترکیبی است که با بالابردن سطح تستسترون، به عضلات انرژی می دهد و در سطح سلولی
-            باعث افزایش عملکرد و مقاومت بدن می شود. 95 درصد کراتین در ماهیچه ها و فقط 5 درصد آن در مغز، کبد و کلیه ذخیره
-            می شود. لازم به ذکر است که کراتین به طور طبیعی در بدن ساخته می شود و در غذاهای با پروتئین بالا مانند گوشت
-            قرمز و ماهی موجود است به طوری که در هر 400 گرم گوشت قرمز یا ماهی حدود 1 الی 3 گرم کراتین نهفته است. چند
-            نمونه از مواد غذایی که تولید کراتین را تقویت می کنند عبارتند از: تخم مرغ- پیاز-ماهی سالمون- سیب زمینی شیرین-
-            دانه های آفتابگردان- سیر- انبه- جگر گاو-هویج
-          </p>
-
-          <img class="rounded mx-auto d-block" src="../images/pages/supplements/2.jpg" alt="تصویر دو" />
-
-          <h4>عوارض جانبی کراتین</h4>
-          <p>
-            کراتین بیشترین تحقیقات آزمایشگاهی را در بین مکمل ها به خود اختصاص می دهد. در گذشته شایعات زیادی مبنی بر
-            عوارض جبران ناپذیر کراتین بر بدن مانند ریزش مو، مشکلات کلیوی و ... وجود داشت ولی خوشبختانه امروزه با
-            آزمایشات دقیقی که انجام گرفته، ثابت شده که مصرف مقدار مجاز کراتین در افراد سالم نه تنها هیچ گونه عوارضی
-            ندارد،بلکه در درمان پارکینسون و دیابت نوع دو نیز بسیار موثر است. علاوه بر آن باعث تقویت حافظه و بهبود عملکرد
-            مغز می شود. اگر فرد به طور ارثی مستعد ریزش مو یا دارای مشکلات کلیوی باشد، بهتر است با مشورت پزشک این مکمل را
-            مصرف کند.
-          </p>
-
-          <h4>روش مصرف کراتین</h4>
-          <p>به طور کلی دو روش برای مصرف کراتین وجود دارد.</p>
-          <p>
-            الف) با بارگیری: به این صورت که به مدت 5 روز، هر روز 20 گرم کراتین(در 4 وعده ی 5 گرمی) و پس از گذشت این 5
-            روز، 5 گرم روزانه مصرف می شود.
-          </p>
-          <p>
-            ب) بدون بارگیری: از همان ابتدا روزی 5 گرم کراتین مصرف شود. در روش اول تجمع کراتین در چند روز اول باعث پیشرفت
-            سریعتر ورزشکار می شود ولی تحقیقات نشان داده با توجه به این که پس از گذشت حدود 20 روز در هر دو روش سطح کراتین
-            بدن به حداکثر می رسد، نیازی به بارگیری نیست و معمولا توصیه می شود از روش بدون بارگیری شخص میزان کراتین بدن
-            خود را بالا ببرد.
-          </p>
-          <p>
-            * لازم به ذکر است 5 گرم گفته شده به صورت کلی می باشد و به طور دقیق بهتر است هرکس به میزان یک دهم وزن بدن خود
-            روزانه کراتین مصرف کند( مثلا فرد 70 کیلوگرمی، روزانه 7 گرم تقسیم شده در دو وعده ی قبل و بعد تمرین) و تا مصرف
-            روزانه تا 10 گرم کراتین در صورت مصرف آب زیاد، هیچ گونه مشکلی برای فرد ایجاد نمی کند.
-          </p>
-
-          <h4>نکات کراتین</h4>
-          <p>
-            تحقیقات جدید نشان داده که نیاز به دوره بندی در مصرف کراتین نیست و به شرط مصرف دوز مجاز، می توان پشت سرهم در
-            کل سال از آن استفاده شود.
-          </p>
-          <p>
-            در صورت قطع مصرف مکمل کراتین، تا دو هفته سطح کراتین در عضلات بالا می ماند و سپس به تدریج کاهش می یابد. به
-            طوری که اگر در مصرف دو ماهه، 2 یا 3 کیلوگرم افزایش حجم ایجاد شود، در نهایت نیم کیلوی آن باقی می ماند.
-          </p>
-
-          <h5>منابع</h5>
-
-          <ul>
-            <li>
-              <a class="link-primary text-decoration-none" href="https://youtu.be/hiChPws--80">
-                یوتیوب: تمام واقعیت درباره کراتین
-              </a>
-            </li>
-            <li>
-              <a class="link-primary text-decoration-none" href="https://youtu.be/IbLIyA6AlS4">
-                یوتیوب: چگونه کراتین مصرف کنیم
-              </a>
-            </li>
-            <li>
-              <a class="link-primary text-decoration-none" href="https://youtu.be/Q5aBs7P6VGk">
-                یوتیوب: دانستنی های مکمل کراتین، زمان مصرف و دوز مصرف
-              </a>
-            </li>
-          </ul>
-
-          <h3>بی سی ای ای</h3>
-          <p>
-            بی سی ای ای که به آن بی سی دبل ای نیز می گویند، یکی دیگر از مکمل های پر طرفدار در بین ورزشکاران است. این
-            مکمل از سه آمینواسید ضروری برای بدن یعنی لوسین، ایزولئسین و والین تشکیل شده است. به این دلیل به این سه آمینو
-            اسید ضروری میگوییم چون بدن قادر به تولید آن نیست و باید حتما از منابع خارجی دریافت شود. این آمینو اسیدها
-            برای ساخت عضله، چربی سوزی، افزایش قطر رگ ها، دم عضلانی بهتر و تعویق خستگی تا 10 درصد کاربرد دارند. در اصل
-            اگر مولکول های پروتئین را به خانه ای تشبیه کنیم، خشت های آن همان آمینو اسید ها هستند. در ادامه توضیح داده
-            خواهد شد که میتوان نیاز بدن به آمینو اسید را با موادغذایی تامین کرد ولی لازم به ذکر است به دلیل این که مکمل،
-            تغلیظ شده ی غذاست، سرعت جذب آن 6 برابر بیشتر است .
-          </p>
-
-          <img class="rounded mx-auto d-block" src="../images/pages/supplements/3.jpg" alt="تصویر سه" />
-
-          <h4>روش مصرف bcaa</h4>
-          <p>
-            دوز مصرفی این مکمل بین 100 میلی گرم تا 300 میلی گرم روزانه بسته به میزان حرفه ای بودن شما متفاوت است. 100
-            میلی گرم* وزن به کیلوگرم :فرمول میزان مصرف یک فرد مبتدی مثلا دوز مصرفی برای یک فرد 80 کیلوگرمی مبتدی 8000
-            میلی گرم یا 8 گرم روزانه می باشد. درباره ی زمان مصرف این مکمل میتوان گفت در هر سه وعده ی قبل تمرین، حین
-            تمرین و پس از تمرین مصرف می توان مصرف شود تا ساخت و تولید پروتئین را تقویت کند و از شکسته شدن پروتئین های
-            عضله جلوگیری کند. Bcaa به شکل کپسول و یا پودرهای ساده و طعم دار در بازار عرضه می شود و باید به این نکته توجه
-            داشت که پودر ساده ی آن کمی تلخ مزه است و شاید مورد پسند بعضی افراد نباشد. مصرف مواد غذایی حاوی ویتامین b6 یا
-            قرص آن میتوان سرعت جذب این مکمل را بالا ببرد.
-          </p>
-
-          <h4>نکته ی مهم درباره ی bcaa</h4>
-          <p>
-            هر فرد به طور متوسط 2 گرم پروتئین به ازای هر کیلوگرم وزن بدن نیاز دارد که اگر این مقدار پروتئین توسط مواد
-            غذایی روزمره فراهم شود، دیگر خوردن مکمل bcaa کاملا بی فایده است. به طور مثال در 200 گرم سینه ی مرغ، 10 گرم
-            bcaa موجود است که تقریبا دو برابر یک سروینگ مکمل های بازار است پس اگر شما میزان پروتئین کافی را از طریق غذا
-            به دست می آورید، دیگر نیازی نیست با خرید مکمل bcaa پول خود را هدر دهید چراکه مقدار اضافی آن کاملا دفع میشود.
-          </p>
-
-          <h5>منابع</h5>
-
-          <ul>
-            <li>
-              <a class="link-primary text-decoration-none" href="https://youtu.be/EH3uwxcNEyo">
-                یوتیوب: این ۴ مکمل غذایی را نخرید
-              </a>
-            </li>
-            <li>
-              <a class="link-primary text-decoration-none" href="https://youtu.be/G-1ilq6w54k">
-                یوتیوب: مکمل بی سی ای ای چرا مصرف کنیم؟ چگونه مصرف کنیم؟ چه زمانی مصرف کنیم؟ چقدر مصرف کنیم؟
-              </a>
-            </li>
-            <li>
-              <a
-                class="link-primary text-decoration-none"
-                href="https://pourateb.com/news/%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-%D8%B2%D9%85%D8%A7%D9%86-%D9%85%D8%B5%D8%B1%D9%81-bcaa"
-              >
-                شرکت دارویی پوراطب گستر: بهترین زمان مصرف BCAA
-              </a>
-            </li>
-          </ul>
-
-          <h3>گینر</h3>
-          <p>
-            یکی دیگر از مکمل هایی که موردعلاقه ی ورزشکاران به خصوص افراد با تیپ بدنی اکتومورف (لاغر اندام) واقع شده است،
-            مکمل گینر است. این مکمل که با هدف افزایش حجم و وزن بیشتر مورد استفاده ی افراد مبتدی است، از کربوهیدرات،
-            پروتئین و چربی تشکیل شده است. در بازار دو نوع MASS GAINER و WEIGHT GAINER وجود دارد که اولی برای افزایش وزن
-            به واسطه ی افزایش حجم و توده ی عضلانی و دومی برای افزایش وزن به واسطه ی افزایش هضم و جذب غذا به کار می رود.
-          </p>
-
-          <img class="rounded mx-auto d-block" src="../images/pages/supplements/4.jpg" alt="تصویر چهار" />
-
-          <h4>فواید گینر</h4>
-          <p>1. عدم نیاز به خوردن تعداد زیادی وعده غذایی برای تأمین کالری موردنیاز</p>
-          <p>2. استفاده آسان برای اکتومورف‌ها، هاردگینرها و افرادی با مشغله زیاد برای حفظ کالری مازاد روزانه</p>
-          <p>3. تأمین ۳۵۰ تا ۱۰۰۰ کالری در هر وعده مصرف</p>
-          <p>4. کمک به افزایش انسولین و شروع سنتز پروتئین برای ساخت و ریکاوری عضلات</p>
-          <p>5. کمک به افزایش ذخایر گلیکوژن جهت تمرینات سخت، کاهش خستگی عضلانی، و به حداکثر رساندن عضله بالقوه</p>
-        </article>
-
-        <h4>روش مصرف گینر</h4>
-        <p>
-          گینر می تواند در 4 وعده ی صبح ناشتا، قبل تمرین، بعد تمرین و شب قبل از خواب مصرف شود. در مصرف قبل از تمرین به
-          دلیل کربوهیدراتش، کالری زیادی را فراهم می کند و باعث کاهش خستگی ورزشکار می شود و در مصرف بعد از تمرین به دلیل
-          پروتئینش باعث افزایش حجم و توده ی عضلانی می شود. هر یک سروینگ گینر به طور میانگین حاوی 1200 تا 1300 کیلو کالری
-          انرژی و 30 تا 40 گرم پروتئین است. پودر گینر را هم میتوان با آب و هم با شیر ترکیب کرد ولی به دلیل این که در
-          ترکیب با آب جذب سریع تر و راحتتری دارد، توصیه می شود با آب ترکیب و مصرف شود.
-        </p>
-
-        <h4>نکات گینر</h4>
-        <p>
-          اگر فرد بدون ورزش به استفاده از مکمل گینر بپردازد، چربی های موضعی در بدنش انباشته می شود.پس این مکمل فقط باید
-          به همراه ورزش مصرف شود. همچنین اگر به مقدار بیشتر از دوز نوشته شده و همراه آب کم مصرف شود، ممکن است باعث
-          مشکلات رودوی شود.
-        </p>
-
-        <h5>منابع</h5>
-
-        <ul>
-          <li>
-            <a class="link-primary text-decoration-none" href="https://youtu.be/QQVsRiwVzBQ">
-              یوتیوب: آیا گینر مکمل خوبی برای افرایش حجم و وزن میباشد؟
-            </a>
-          </li>
-          <li>
-            <a class="link-primary text-decoration-none" href="https://youtu.be/2s1mlQqXnpM">
-              یوتیوب: آموزش طرز استفاده و فواید گینر
-            </a>
-          </li>
-          <li>
-            <a class="link-primary text-decoration-none" href="https://youtu.be/K7afOROXZoU">
-              یوتیوب: همه چیز در مورد مکمل افزایش وزن گینر
-            </a>
-          </li>
-          <li>
-            <a class="link-primary text-decoration-none" href="https://youtu.be/SEe1geeYGMs"> یوتیوب: مکمل گینر </a>
-          </li>
-          <li>
-            <a class="link-primary text-decoration-none" href="https://youtu.be/jztgzkxQ_Sc">
-              یوتیوب: چگونه در یک ماه چاق شویم چه مکملهای بخوریم
-            </a>
-          </li>
-        </ul>
-      </section>
-
-      <!-- -------------------------------- Quote -------------------------------- -->
-      <div class="card card-shadow">
-        <div class="card-header d-flex align-items-center justify-content-between fw-bold">
-          <span>جمله انگیزشی</span>
-          <div>
-            <span>زمان: </span>
-            <span id="time" class="fs-5"></span>
-          </div>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote">
-            <p id="quote"></p>
-            <div class="blockquote-footer text-start">
-              <cite title="Source Title" id="quote-author"></cite>
-            </div>
-          </blockquote>
-        </div>
-      </div>
-    </main>
-
-    <!-- ------------------------------- Footer -------------------------------- -->
-    <footer
-      class="d-flex flex-wrap justify-content-center justify-content-md-around align-items-center p-3 fs-5 soft-shadow"
+    <button
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      class="navbar-toggler"
+      data-bs-target="#navbarSupportedContent"
+      data-bs-toggle="collapse"
+      type="button"
     >
-      <div class="col-md-4 mb-0 text-muted text-center">
-        <span class="me-2">Developed By AmirHossein Moslemi</span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item ms-5">
+          <a class="nav-link" href="./home.html">صفحه نخست</a>
+        </li>
+
+        <li class="nav-item ms-5">
+          <a class="nav-link" href="./calories.html">کالری غذاها</a>
+        </li>
+
+        <li class="nav-item ms-5">
+          <a aria-current="page" class="nav-link active" href="./supplements.html">مکمل</a>
+        </li>
+
+        <li class="nav-item ms-5">
+          <a class="nav-link" href="./sleep.html">خواب</a>
+        </li>
+
+        <li class="nav-item dropdown ms-5">
+          <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">
+            مقالات
+          </a>
+          <ul class="dropdown-menu text-end">
+            <li><a class="dropdown-item" href="../articles/warmUp.html">گرم کردن و سرد کردن</a></li>
+            <li><a class="dropdown-item" href="../articles/correctExercies.html">تمرینات اصلاحی</a></li>
+            <li><a class="dropdown-item" href="../articles/bodyTypes.html">انواع تیپ‌ بدنی</a></li>
+            <li><a class="dropdown-item" href="../articles/exerciseSystems.html">سیستم‌های تمرینی</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item ms-5">
+          <a class="nav-link" href="./about.html">درباره من</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container pb-5">
+  <!-- ------------------------------- Article ------------------------------- -->
+  <section class="row gx-5 my-5">
+    <article class="col-10 mx-auto">
+      <h1>مکمل های بدنسازی</h1>
+      <img alt="تصویر یک" class="rounded mx-auto d-block" src="../images/pages/supplements/1.jpg" />
+
+      <h3>کراتین</h3>
+      <p>
+        مکمل کراتین قطعا پرمصرف ترین و همینطور جنجالی ترین مکملی است که مورد استفاده ی ورزشکاران قرار می گیرد. به
+        طور ساده می توان گفت کراتین ترکیبی است که با بالابردن سطح تستسترون، به عضلات انرژی می دهد و در سطح سلولی
+        باعث افزایش عملکرد و مقاومت بدن می شود. 95 درصد کراتین در ماهیچه ها و فقط 5 درصد آن در مغز، کبد و کلیه ذخیره
+        می شود. لازم به ذکر است که کراتین به طور طبیعی در بدن ساخته می شود و در غذاهای با پروتئین بالا مانند گوشت
+        قرمز و ماهی موجود است به طوری که در هر 400 گرم گوشت قرمز یا ماهی حدود 1 الی 3 گرم کراتین نهفته است. چند
+        نمونه از مواد غذایی که تولید کراتین را تقویت می کنند عبارتند از: تخم مرغ- پیاز-ماهی سالمون- سیب زمینی شیرین-
+        دانه های آفتابگردان- سیر- انبه- جگر گاو-هویج
+      </p>
+
+      <img alt="تصویر دو" class="rounded mx-auto d-block" src="../images/pages/supplements/2.jpg" />
+
+      <h4>عوارض جانبی کراتین</h4>
+      <p>
+        کراتین بیشترین تحقیقات آزمایشگاهی را در بین مکمل ها به خود اختصاص می دهد. در گذشته شایعات زیادی مبنی بر
+        عوارض جبران ناپذیر کراتین بر بدن مانند ریزش مو، مشکلات کلیوی و ... وجود داشت ولی خوشبختانه امروزه با
+        آزمایشات دقیقی که انجام گرفته، ثابت شده که مصرف مقدار مجاز کراتین در افراد سالم نه تنها هیچ گونه عوارضی
+        ندارد،بلکه در درمان پارکینسون و دیابت نوع دو نیز بسیار موثر است. علاوه بر آن باعث تقویت حافظه و بهبود عملکرد
+        مغز می شود. اگر فرد به طور ارثی مستعد ریزش مو یا دارای مشکلات کلیوی باشد، بهتر است با مشورت پزشک این مکمل را
+        مصرف کند.
+      </p>
+
+      <h4>روش مصرف کراتین</h4>
+      <p>به طور کلی دو روش برای مصرف کراتین وجود دارد.</p>
+      <p>
+        الف) با بارگیری: به این صورت که به مدت 5 روز، هر روز 20 گرم کراتین(در 4 وعده ی 5 گرمی) و پس از گذشت این 5
+        روز، 5 گرم روزانه مصرف می شود.
+      </p>
+      <p>
+        ب) بدون بارگیری: از همان ابتدا روزی 5 گرم کراتین مصرف شود. در روش اول تجمع کراتین در چند روز اول باعث پیشرفت
+        سریعتر ورزشکار می شود ولی تحقیقات نشان داده با توجه به این که پس از گذشت حدود 20 روز در هر دو روش سطح کراتین
+        بدن به حداکثر می رسد، نیازی به بارگیری نیست و معمولا توصیه می شود از روش بدون بارگیری شخص میزان کراتین بدن
+        خود را بالا ببرد.
+      </p>
+      <p>
+        * لازم به ذکر است 5 گرم گفته شده به صورت کلی می باشد و به طور دقیق بهتر است هرکس به میزان یک دهم وزن بدن خود
+        روزانه کراتین مصرف کند( مثلا فرد 70 کیلوگرمی، روزانه 7 گرم تقسیم شده در دو وعده ی قبل و بعد تمرین) و تا مصرف
+        روزانه تا 10 گرم کراتین در صورت مصرف آب زیاد، هیچ گونه مشکلی برای فرد ایجاد نمی کند.
+      </p>
+
+      <h4>نکات کراتین</h4>
+      <p>
+        تحقیقات جدید نشان داده که نیاز به دوره بندی در مصرف کراتین نیست و به شرط مصرف دوز مجاز، می توان پشت سرهم در
+        کل سال از آن استفاده شود.
+      </p>
+      <p>
+        در صورت قطع مصرف مکمل کراتین، تا دو هفته سطح کراتین در عضلات بالا می ماند و سپس به تدریج کاهش می یابد. به
+        طوری که اگر در مصرف دو ماهه، 2 یا 3 کیلوگرم افزایش حجم ایجاد شود، در نهایت نیم کیلوی آن باقی می ماند.
+      </p>
+
+      <h5>منابع</h5>
+
+      <ul>
+        <li>
+          <a class="link-primary text-decoration-none" href="https://youtu.be/hiChPws--80">
+            یوتیوب: تمام واقعیت درباره کراتین
+          </a>
+        </li>
+        <li>
+          <a class="link-primary text-decoration-none" href="https://youtu.be/IbLIyA6AlS4">
+            یوتیوب: چگونه کراتین مصرف کنیم
+          </a>
+        </li>
+        <li>
+          <a class="link-primary text-decoration-none" href="https://youtu.be/Q5aBs7P6VGk">
+            یوتیوب: دانستنی های مکمل کراتین، زمان مصرف و دوز مصرف
+          </a>
+        </li>
+      </ul>
+
+      <h3>بی سی ای ای</h3>
+      <p>
+        بی سی ای ای که به آن بی سی دبل ای نیز می گویند، یکی دیگر از مکمل های پر طرفدار در بین ورزشکاران است. این
+        مکمل از سه آمینواسید ضروری برای بدن یعنی لوسین، ایزولئسین و والین تشکیل شده است. به این دلیل به این سه آمینو
+        اسید ضروری میگوییم چون بدن قادر به تولید آن نیست و باید حتما از منابع خارجی دریافت شود. این آمینو اسیدها
+        برای ساخت عضله، چربی سوزی، افزایش قطر رگ ها، دم عضلانی بهتر و تعویق خستگی تا 10 درصد کاربرد دارند. در اصل
+        اگر مولکول های پروتئین را به خانه ای تشبیه کنیم، خشت های آن همان آمینو اسید ها هستند. در ادامه توضیح داده
+        خواهد شد که میتوان نیاز بدن به آمینو اسید را با موادغذایی تامین کرد ولی لازم به ذکر است به دلیل این که مکمل،
+        تغلیظ شده ی غذاست، سرعت جذب آن 6 برابر بیشتر است .
+      </p>
+
+      <img alt="تصویر سه" class="rounded mx-auto d-block" src="../images/pages/supplements/3.jpg" />
+
+      <h4>روش مصرف bcaa</h4>
+      <p>
+        دوز مصرفی این مکمل بین 100 میلی گرم تا 300 میلی گرم روزانه بسته به میزان حرفه ای بودن شما متفاوت است. 100
+        میلی گرم* وزن به کیلوگرم :فرمول میزان مصرف یک فرد مبتدی مثلا دوز مصرفی برای یک فرد 80 کیلوگرمی مبتدی 8000
+        میلی گرم یا 8 گرم روزانه می باشد. درباره ی زمان مصرف این مکمل میتوان گفت در هر سه وعده ی قبل تمرین، حین
+        تمرین و پس از تمرین مصرف می توان مصرف شود تا ساخت و تولید پروتئین را تقویت کند و از شکسته شدن پروتئین های
+        عضله جلوگیری کند. Bcaa به شکل کپسول و یا پودرهای ساده و طعم دار در بازار عرضه می شود و باید به این نکته توجه
+        داشت که پودر ساده ی آن کمی تلخ مزه است و شاید مورد پسند بعضی افراد نباشد. مصرف مواد غذایی حاوی ویتامین b6 یا
+        قرص آن میتوان سرعت جذب این مکمل را بالا ببرد.
+      </p>
+
+      <h4>نکته ی مهم درباره ی bcaa</h4>
+      <p>
+        هر فرد به طور متوسط 2 گرم پروتئین به ازای هر کیلوگرم وزن بدن نیاز دارد که اگر این مقدار پروتئین توسط مواد
+        غذایی روزمره فراهم شود، دیگر خوردن مکمل bcaa کاملا بی فایده است. به طور مثال در 200 گرم سینه ی مرغ، 10 گرم
+        bcaa موجود است که تقریبا دو برابر یک سروینگ مکمل های بازار است پس اگر شما میزان پروتئین کافی را از طریق غذا
+        به دست می آورید، دیگر نیازی نیست با خرید مکمل bcaa پول خود را هدر دهید چراکه مقدار اضافی آن کاملا دفع میشود.
+      </p>
+
+      <h5>منابع</h5>
+
+      <ul>
+        <li>
+          <a class="link-primary text-decoration-none" href="https://youtu.be/EH3uwxcNEyo">
+            یوتیوب: این ۴ مکمل غذایی را نخرید
+          </a>
+        </li>
+        <li>
+          <a class="link-primary text-decoration-none" href="https://youtu.be/G-1ilq6w54k">
+            یوتیوب: مکمل بی سی ای ای چرا مصرف کنیم؟ چگونه مصرف کنیم؟ چه زمانی مصرف کنیم؟ چقدر مصرف کنیم؟
+          </a>
+        </li>
+        <li>
+          <a
+            class="link-primary text-decoration-none"
+            href="https://pourateb.com/news/%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-%D8%B2%D9%85%D8%A7%D9%86-%D9%85%D8%B5%D8%B1%D9%81-bcaa"
+          >
+            شرکت دارویی پوراطب گستر: بهترین زمان مصرف BCAA
+          </a>
+        </li>
+      </ul>
+
+      <h3>گینر</h3>
+      <p>
+        یکی دیگر از مکمل هایی که موردعلاقه ی ورزشکاران به خصوص افراد با تیپ بدنی اکتومورف (لاغر اندام) واقع شده است،
+        مکمل گینر است. این مکمل که با هدف افزایش حجم و وزن بیشتر مورد استفاده ی افراد مبتدی است، از کربوهیدرات،
+        پروتئین و چربی تشکیل شده است. در بازار دو نوع MASS GAINER و WEIGHT GAINER وجود دارد که اولی برای افزایش وزن
+        به واسطه ی افزایش حجم و توده ی عضلانی و دومی برای افزایش وزن به واسطه ی افزایش هضم و جذب غذا به کار می رود.
+      </p>
+
+      <img alt="تصویر چهار" class="rounded mx-auto d-block" src="../images/pages/supplements/4.jpg" />
+
+      <h4>فواید گینر</h4>
+      <p>1. عدم نیاز به خوردن تعداد زیادی وعده غذایی برای تأمین کالری موردنیاز</p>
+      <p>2. استفاده آسان برای اکتومورف‌ها، هاردگینرها و افرادی با مشغله زیاد برای حفظ کالری مازاد روزانه</p>
+      <p>3. تأمین ۳۵۰ تا ۱۰۰۰ کالری در هر وعده مصرف</p>
+      <p>4. کمک به افزایش انسولین و شروع سنتز پروتئین برای ساخت و ریکاوری عضلات</p>
+      <p>5. کمک به افزایش ذخایر گلیکوژن جهت تمرینات سخت، کاهش خستگی عضلانی، و به حداکثر رساندن عضله بالقوه</p>
+    </article>
+
+    <h4>روش مصرف گینر</h4>
+    <p>
+      گینر می تواند در 4 وعده ی صبح ناشتا، قبل تمرین، بعد تمرین و شب قبل از خواب مصرف شود. در مصرف قبل از تمرین به
+      دلیل کربوهیدراتش، کالری زیادی را فراهم می کند و باعث کاهش خستگی ورزشکار می شود و در مصرف بعد از تمرین به دلیل
+      پروتئینش باعث افزایش حجم و توده ی عضلانی می شود. هر یک سروینگ گینر به طور میانگین حاوی 1200 تا 1300 کیلو کالری
+      انرژی و 30 تا 40 گرم پروتئین است. پودر گینر را هم میتوان با آب و هم با شیر ترکیب کرد ولی به دلیل این که در
+      ترکیب با آب جذب سریع تر و راحتتری دارد، توصیه می شود با آب ترکیب و مصرف شود.
+    </p>
+
+    <h4>نکات گینر</h4>
+    <p>
+      اگر فرد بدون ورزش به استفاده از مکمل گینر بپردازد، چربی های موضعی در بدنش انباشته می شود.پس این مکمل فقط باید
+      به همراه ورزش مصرف شود. همچنین اگر به مقدار بیشتر از دوز نوشته شده و همراه آب کم مصرف شود، ممکن است باعث
+      مشکلات رودوی شود.
+    </p>
+
+    <h5>منابع</h5>
+
+    <ul>
+      <li>
+        <a class="link-primary text-decoration-none" href="https://youtu.be/QQVsRiwVzBQ">
+          یوتیوب: آیا گینر مکمل خوبی برای افرایش حجم و وزن میباشد؟
+        </a>
+      </li>
+      <li>
+        <a class="link-primary text-decoration-none" href="https://youtu.be/2s1mlQqXnpM">
+          یوتیوب: آموزش طرز استفاده و فواید گینر
+        </a>
+      </li>
+      <li>
+        <a class="link-primary text-decoration-none" href="https://youtu.be/K7afOROXZoU">
+          یوتیوب: همه چیز در مورد مکمل افزایش وزن گینر
+        </a>
+      </li>
+      <li>
+        <a class="link-primary text-decoration-none" href="https://youtu.be/SEe1geeYGMs"> یوتیوب: مکمل گینر </a>
+      </li>
+      <li>
+        <a class="link-primary text-decoration-none" href="https://youtu.be/jztgzkxQ_Sc">
+          یوتیوب: چگونه در یک ماه چاق شویم چه مکملهای بخوریم
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- -------------------------------- Quote -------------------------------- -->
+  <div class="card card-shadow">
+    <div class="card-header d-flex align-items-center justify-content-between fw-bold">
+      <span>جمله انگیزشی</span>
+      <div>
+        <span>زمان: </span>
+        <span class="fs-5" id="time"></span>
       </div>
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote">
+        <p id="quote"></p>
+        <div class="blockquote-footer text-start">
+          <cite id="quote-author" title="Source Title"></cite>
+        </div>
+      </blockquote>
+    </div>
+  </div>
+</main>
 
-      <a
-        href="#"
-        class="col-md-4 d-none d-lg-flex align-items-center justify-content-center link-dark text-decoration-none"
-      >
-        <img src="../images/logo/logo_no-text.png" alt="لوگو" height="50" class="d-inline-block align-text-top ms-3" />
-      </a>
+<!-- ------------------------------- Footer -------------------------------- -->
+<footer
+  class="d-flex flex-wrap justify-content-center justify-content-md-around align-items-center p-3 fs-5 soft-shadow"
+>
+  <div class="col-md-4 mb-0 text-muted text-center">
+    <span class="me-2">Developed By Amir Pourhadi</span>
+  </div>
 
-      <p class="col-md-4 mb-0 text-muted text-center">&copy; 2022 FitPlus, Inc. All Rights Reserved</p>
-    </footer>
-  </body>
+  <a
+    class="col-md-4 d-none d-lg-flex align-items-center justify-content-center link-dark text-decoration-none"
+    href="#"
+  >
+    <img alt="لوگو" class="d-inline-block align-text-top ms-3" height="50" src="../images/logo/logo_no-text.png" />
+  </a>
+
+  <p class="col-md-4 mb-0 text-muted text-center">&copy; 2022 FitPlus, Inc. All Rights Reserved</p>
+</footer>
+</body>
 </html>
